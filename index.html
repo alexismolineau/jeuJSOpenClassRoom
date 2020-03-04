@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Best Game Ever</title>
+    <link rel="stylesheet" type="text/css" href="./css/jeu.css"/>
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="0">
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1>Best Game Ever</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p id="tour"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 text-center joueur" id='cadreJ1'>
+          <div id='joueur1'><strong>Joueur 1</strong></div>
+          <div id="pseudo1">Pseudo :</div>
+          <div id="pv1">PV :</div>
+          <div id="arme1">Arme :</div>
+          <div id="degat1">Dégâts :</div>
+          <div id="action1"></div>
+        </div>
+        <div class="col-lg-8 text-center">
+          <table id="carte" class="text-center col-lg-12">
+          </table>
+        </div>
+        <div class="col-lg-2 text-center joueur" id='cadreJ2'>
+          <div id='joueur2'><strong>Joueur 2</strong></div>
+          <div id="pseudo2">Pseudo :</div>
+          <div id="pv2">PV :</div>
+          <div id="arme2">Arme :</div>
+          <div id="degat2">Dégâts :</div>
+          <div id="action2"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <button id="newGame">Nouvelle partie</button>
+          <button id="finTour">Finir mon tour</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="./js/jeu.js" type="module" ></script>
+  </body>
+</html>

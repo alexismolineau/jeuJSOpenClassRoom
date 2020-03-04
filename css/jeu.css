@@ -1,0 +1,40 @@
+td{
+  height: 50px;
+  width: 100px;
+  border:1px solid black;
+  background-image: url('../img/herbe.png');
+  z-index: -1000;
+}
+
+button{
+  margin: 20px!important;
+}
+
+.joueur{
+  border:1px solid black
+}
+
+.grey{
+  background-image: url('../img/rocher.jpg');
+  z-index: 1;
+}
+
+#carte{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#tour{
+  font-size: 24px;
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+img{
+  max-height: 45px;
+  max-width: 96px;
+}
+
+#journal{
+  font-weight: normal;
+}
